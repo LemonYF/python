@@ -20,8 +20,8 @@ s.close()
 header, html = data.split(b'\r\n\r\n', 1)
 print(header.decode('utf-8'))
 # 把接收的数据写入文件:
-with open('sina.html', 'wb') as f:
-    f.write(html)
+#with open('sina.html', 'wb') as f:
+# f.write(html)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # 监听端口:
