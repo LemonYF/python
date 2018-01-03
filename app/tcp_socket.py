@@ -38,7 +38,7 @@ while True:
     t.start()
 
 
-# 创建新线程处理
+# 创建新线程处理1
 def tcplink(sock, addr):
     print('Accept new connection from %s:%s...' % addr)
     sock.send(b'Welcome!')
