@@ -13,3 +13,4 @@ def interface_hello(environ,start_response):  # environ包含所有http请求的
     print(start_response('200 OK',[('Content_Type', 'text/html')]))
     body = '<h1>Hello, %s!</h1>' % (environ['PATH_INFO'][1:] or 'Interface')
     return [body.encode('utf-8')]
+

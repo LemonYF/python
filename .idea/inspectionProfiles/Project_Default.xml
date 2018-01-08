@@ -26,6 +26,7 @@
           <option value="teration.isinstance" />
           <option value="teration.collections" />
           <option value="teration.enumerate" />
+          <option value="app.mysql1_test.mysql" />
         </list>
       </option>
     </inspection_tool>
